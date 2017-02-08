@@ -11,6 +11,7 @@ package Mammal;
  */
 public class Human extends Mammal {
     private String name;
+    private String speak;
 
     public String getName() {
         return name;
@@ -18,6 +19,14 @@ public class Human extends Mammal {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSpeak() {
+        return speak;
+    }
+
+    public void setSpeak(String speak) {
+        this.speak = speak;
     }
     
     
