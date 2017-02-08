@@ -11,6 +11,7 @@ package Mammal;
  */
 public class Being {
     private int age;
+    private int types;
 
     public int getAge() {
         return age;
@@ -18,6 +19,14 @@ public class Being {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getTypes() {
+        return types;
+    }
+
+    public void setTypes(int types) {
+        this.types = types;
     }
     
     
