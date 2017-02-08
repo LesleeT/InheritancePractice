@@ -17,6 +17,9 @@ public class StartUp {
         chair.setFurnitureMaker("Broyhill");
         System.out.println("The make of your chair is " + chair.getFurnitureMaker());
        
+        Recliner rec = new Recliner();
+        rec.setFabric("Leather");
+        System.out.println("You chose " + rec.getFabric() + "for the material of your recliner");
         
         
     }

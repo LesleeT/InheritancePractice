@@ -10,5 +10,15 @@ package Furniture;
  * @author Leslee
  */
 public class Recliner extends Chair {
+    private String fabric;
+
+    public String getFabric() {
+        return fabric;
+    }
+
+    public void setFabric(String fabric) {
+        this.fabric = fabric;
+    }
+    
     
 }
