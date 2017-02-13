@@ -9,10 +9,8 @@ package ClassExample;
  *
  * @author ltrinastic
  */
-public class TwoDShape extends Shape {
+public abstract class TwoDShape extends Shape {
           
-    public double getArea(){
-        return 0;
-    }
+    public abstract double getArea();
     
 }
